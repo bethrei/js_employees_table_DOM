@@ -36,7 +36,7 @@ for (const inputName of inputNames) {
     input.required = false;
 
     const officeOptions = [
-      'Tokio',
+      'Tokyo',
       'Singapore',
       'London',
       'New York',
@@ -107,7 +107,7 @@ form.addEventListener('submit', (e) => {
 
   pushNotification(
     'Success!',
-    'The employee is successfully added to the tale',
+    'The employee is successfully added to the table',
     'success',
   );
 });
